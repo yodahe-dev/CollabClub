@@ -90,7 +90,8 @@ function CreatePage() {
                   src={room.avatar}
                   className="w-10 h-10 rounded-full mr-3"
                   onError={(e) => e.target.src = ""} // Remove image if error
-                />
+
+                  />
               ) : (
                 <FaUserCircle className="text-4xl text-gray-400 mr-3" />
               )}
